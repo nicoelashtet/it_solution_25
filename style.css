@@ -6,10 +6,7 @@ body {
     /* ★ New background: soft business-like gradient + overlay */
     background:
         linear-gradient(110deg, rgba(53, 71, 161, 0.2), rgba(67, 160, 71, 0.2)),
-          url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q') 
-        /*url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1500&q=80') */
-      
-      /*https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080*/
+          url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q')       
       
         no-repeat center center fixed;
     background-size: cover;
@@ -106,8 +103,6 @@ section {
     background: rgba(0,9,0, 0.4);
 }
 
-/* Weather & clock */
-
 #backToTop {
     position: fixed;
     bottom: 20px;
@@ -120,27 +115,8 @@ section {
     cursor: pointer;
     display: none;
 }
-
 #backToTop:hover {
     background-color: #0056b3;
-}
-
-#clock{
-  color: green;
-  font-size :30px;
-  text-shadow: 2px 2px 4px orange;
-
-}
-
-#weather  {
-  position: absolute;
-  right: 20px;
-  top: 5px;
-  color : green;  
-  font-size :20px;
-}
-#weather img {
-    filter: brightness(1.8); /* increase brightness */
 }
 iframe{
   display: block;
